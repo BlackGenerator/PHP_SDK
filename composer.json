@@ -1,0 +1,21 @@
+{
+    "name": "su/php_sdk",
+    "authors": [
+        {
+            "name": "dennyellen",
+            "email": "tuqian@cmstop.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DuiBa_SDK\\": "src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+      "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    }
+}
